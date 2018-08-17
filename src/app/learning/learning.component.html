@@ -2,38 +2,50 @@
 <!-- https://webpack.js.org/ -->
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Page Title</title>
-    </head>
-    <body style="background-color:powderblue;">
+
+<head>
+  <title>Page Title</title>
+</head>
+
+<body style="background-color:powderblue;">
+  <style>
+    p {
+      color: teal;
+      font-family: verdana;
+      padding: 1px;
+      margin: 30px
+    }
+  </style>
   <h1 class="blueberry">This is an H1 tag in blue.</h1>
   <p style="text-align:left;">This is a normal paragraph with left alignment.</p>
-<p style="text-align:center;">This is a normal paragraph with center alignment.</p>
-<p style="text-align:right;">This is a normal paragraph with right alignment.</p>
-<p><a href="https://www.w3schools.com">This is a link</a></p>
-<p><img src="https://pbs.twimg.com/profile_images/897250392022540288/W1T-QjML_400x400.jpg" alt="Rick" width="300" height="300"> </p>
-<p><button>Button to Nowhere</button></p>
-<h2>This is the H2 tag.</h2>
-<ul>
-  <li>milk</li>
-  <li>coffee</li>
-  <li>tea</li>
-</ul>
-<hr>
-<p title='Tootip with "quotes" in the sentence.' style="color:green">Testing colors in HTML.</p>
-<hr>
-<h1 style="font-size:40px;">Heading 1 with Font Size 40</h1>
-<h2 style="font-family:verdana;">Heading 2 Written in the Verdana Font Family</h2>
-<h3 style="font-family:courier;">Heading 3 Written in the Courier Font Family</h3>
-<h4>Heading 4</h4>
-<h5>Heading 5</h5>
-<h6>Heading 6</h6>
+  <p style="text-align:center;">This is a normal paragraph with center alignment.</p>
+  <p style="text-align:right;">This is a normal paragraph with right alignment.</p>
+  <p><a href="https://www.w3schools.com">This is a link</a></p>
+  <p><img src="https://pbs.twimg.com/profile_images/897250392022540288/W1T-QjML_400x400.jpg" alt="Rick" width="150" height="150">    </p>
+  <p><button>Button to Nowhere</button></p>
+  <h2>This is the H2 tag.</h2>
+  <ul>
+    <li>milk</li>
+    <li>coffee</li>
+    <li>tea</li>
+  </ul>
+  <hr>
+  <p title='Tootip with "quotes" in the sentence.' style="color:green">Testing colors in HTML. This is green thanks to HTML
+    inline coding. Hover your mouse over this to see a Tooltip.</p>
+  <hr>
+  <h1 style="font-size:40px;">Heading 1 with Font Size 40</h1>
+  <h2 style="font-family:verdana;">Heading 2 Written in the Verdana Font Family</h2>
+  <h3 style="font-family:courier;">Heading 3 Written in the Courier Font Family</h3>
+  <h4>Heading 4</h4>
+  <h5>Heading 5</h5>
+  <h6>Heading 6</h6>
 </body>
+
 <body>
   <p>New body tag has started. No more blue background.</p>
-<p>Let's break...<br>this paragraph...<br>up a bit...<br>and see...<br>what happens.
-</p>
-<pre>
+  <p>Let's break...<br>this paragraph...<br>up a bit...<br>and see...<br>what happens.
+  </p>
+  <pre>
     My Bonnie lies over the ocean.
 
     My Bonnie lies over the sea.
@@ -45,19 +57,32 @@
   <p style="font-size:300%;">This is a paragraph with font size 300%.</p>
   <p style="font-size:150%;">This is a paragraph with font size 150%.</p>
   <p style="font-size:75%;">This is a paragraph with font size 75%.</p>
-  <p><b>Bold</b> text, <strong>strong</strong> text, <i>italticized</i> text, <em>emphasized</em> text, <mark>marked</mark> text, <small>small</small> text, <del>deleted</del> text, <ins>inserted</ins> text, <sub>subscript</sub> text, and <sup>superscript</sup> text.</p>
-<p>Rick likes to sing: <q>Wubba lubba dub-dub. (quote text)</q></p>
-<p>Rick likes to sing:</p>
-<blockquote>Wubba lubba dub-dub. (blockquote text)</blockquote>
-<!-- This is a comment that will not display on screen but will be in the source code. -->
-<p>The <abbr title="abbreviated">abbr</abbr> text is really useful.</p>
-<address style="border:2px solid DodgerBlue;">Written by Rick and Morty<br>123 Main Street, Apartment 4<br>Some Town, USA 00000</address>
-<p><cite>This Citation</cite> feature is really useful.</p>
-<bdo dir="rtl">This text will be written from right to left.</bdo>
-<h1 style="background-color:rgb(255, 99, 71);">H1 with <abbr title="Red Green Blue">RGB</abbr> color codes.</h1>
-<h1 style="background-color:#ff6347;">H1 with <abbr title="Hexadecimal">HEX</abbr> color codes.</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">H1 with <abbr title="Hue Saturation Lightness">HSL</abbr> color codes.</h1>
-<h1 style="background-color:rgba(255, 99, 71, 0.5);">H1 with <abbr title="Red Green Blue Alpha">RGBA</abbr> color codes, 50% transparent.</h1>
-<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">H1 with <abbr title="Hue Saturaton Lightness Alpha">HSLA</abbr> color codes, 64% transparent.</h1> 
+  <p><b>Bold</b> text, <strong>strong</strong> text, <i>italticized</i> text, <em>emphasized</em> text, <mark>marked</mark>
+    text, <small>small</small> text, <del>deleted</del> text, <ins>inserted</ins> text, <sub>subscript</sub> text, and <sup>superscript</sup>
+    text.</p>
+  <p>Rick likes to sing: <q>Wubba lubba dub-dub. (quote text)</q></p>
+  <p>Rick likes to sing:</p>
+  <blockquote>Wubba lubba dub-dub. (blockquote text)</blockquote>
+  <!-- This is a comment that will not display on screen but will be in the source code. -->
+  <p>The <abbr title="abbreviated">abbr</abbr> text is really useful.</p>
+  <address style="border:2px solid DodgerBlue;">Written by Rick and Morty<br>123 Main Street, Apartment 4<br>Some Town, USA
+    00000
+  </address>
+  <p><cite>This Citation</cite> feature is really useful.</p>
+  <bdo dir="rtl">This text will be written from right to left.</bdo>
+  <h1 style="background-color:rgb(255, 99, 71);">H1 with <abbr title="Red Green Blue">RGB</abbr> color codes.</h1>
+  <h1 style="background-color:#ff6347;">H1 with <abbr title="Hexadecimal">HEX</abbr> color codes.</h1>
+  <h1 style="background-color:hsl(9, 100%, 64%);">H1 with <abbr title="Hue Saturation Lightness">HSL</abbr> color codes.</h1>
+  <h1 style="background-color:rgba(255, 99, 71, 0.5);">H1 with <abbr title="Red Green Blue Alpha">RGBA</abbr> color codes,
+    50% transparent.</h1>
+  <h1 style="background-color:hsla(9, 100%, 64%, 0.5);">H1 with <abbr title="Hue Saturaton Lightness Alpha">HSLA</abbr> color
+    codes, 64% transparent.</h1>
+
+  <button (click)="logToTheConsole()">Math Button</button>
+
 </body>
+
 </html>
+<!-- Typing ng --help in the Terminal will bring up a help menu.  -->
+<!-- Ctrl + / will bring up these green Comment sections. -->
+<!-- Typing ng serve --open in the Terminal will serve this code and open it in the browser to view live changes. -->
